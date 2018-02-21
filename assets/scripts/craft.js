@@ -248,7 +248,7 @@ var Craft=function(options) {
     value:1,
     start_value:1,
     end_value:0,
-    duration:6
+    duration:3.5
   });
 
   prop.physics.world.addBody(this.rocket_body);
