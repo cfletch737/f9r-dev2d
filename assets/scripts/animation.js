@@ -5,7 +5,7 @@ var Animation=function(options) {
   this.end_value=1;
   this.progress=0;
   this.easing="smooth";
-  this.duration=1;
+  this.duration=0.3;
   this.start=0;
   this.animating=false;
   if(options) {
