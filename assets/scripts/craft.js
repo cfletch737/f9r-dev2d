@@ -73,7 +73,7 @@ var Craft=function(options) {
       velocity: [15,-240],
       engine_number: 1,
       ballast: 0,
-      max_engines: 3,
+      max_engines: 2,
       angle: radians(7),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
