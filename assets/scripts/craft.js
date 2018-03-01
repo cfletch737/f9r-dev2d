@@ -404,11 +404,11 @@ var Craft=function(options) {
     ap.twr = twr;
 
     if(twr > 10) {
-      this.engine_number = 1;
+      this.engine_number = 3;
     } else if(twr > 5) {
       this.engine_number = 3;
     } else {
-      this.engine_number = 9;
+      this.engine_number = 3;
     }
 
     twr = ((this.thrust_peak[1] * this.engine_number * 10) / (this.mass+this.fuel));
