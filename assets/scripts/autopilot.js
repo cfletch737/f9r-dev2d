@@ -51,7 +51,7 @@ var Autopilot = function(craft) {
     
     var suicide_alt = this.get_suicide_alt(this.craft.getAltitude() - 0.2 - this.target_altitude, this.craft.getVspeed(), crange(0, 0.5, 1, 0.7, 1) * twr);
 
-    if(suicide_alt < 15 && !this.started) {
+    if(suicide_alt < 0 && !this.started) {
       this.started = true;
       this.start_time = time();
       this.start_time_at = hit_time;
@@ -65,8 +65,8 @@ var Autopilot = function(craft) {
       this.pid.input  = suicide_alt;
       this.pid.tick();
       
-      this.craft.throttle = crange(-5, this.pid.get(), 5, 0.015,1);
-      //      this.craft.throttle = clamp(0.7, this.craft.throttle, 3);
+      this.craft.throttle = crange(-5, this.pid.get(), 5, 0.015, 1);
+      //      this.craft.throttle = clamp(0.7, this.craft.throttle, 1);
 
       if(hit_time < 1 && !this.down) {
         this.craft.lowerGear();
