@@ -170,7 +170,7 @@ var Craft=function(options) {
         value:1,
         start_value:1,
         end_value:0,
-        duration:10,
+        duration:3,
       });
     } else {
       this.gear_down=false;
@@ -178,7 +178,7 @@ var Craft=function(options) {
         value:0,
         start_value:0,
         end_value:1,
-        duration:10,
+        duration:3,
       });
     }
 //    this.fuel=350000;
@@ -248,7 +248,7 @@ var Craft=function(options) {
     value:1,
     start_value:1,
     end_value:0,
-    duration:10,
+    duration:3,
   });
 
   prop.physics.world.addBody(this.rocket_body);
