@@ -77,7 +77,7 @@ var Craft=function(options) {
       angle: radians(7),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 3500,
+      fuel: 7000,
       gear_down:false,
       clamp:false,
       model:"f9r"
@@ -170,7 +170,7 @@ var Craft=function(options) {
         value:1,
         start_value:1,
         end_value:0,
-        duration:4,
+        duration:10,
       });
     } else {
       this.gear_down=false;
@@ -178,7 +178,7 @@ var Craft=function(options) {
         value:0,
         start_value:0,
         end_value:1,
-        duration:4,
+        duration:10,
       });
     }
 //    this.fuel=350000;
@@ -248,7 +248,7 @@ var Craft=function(options) {
     value:1,
     start_value:1,
     end_value:0,
-    duration:4,
+    duration:10,
   });
 
   prop.physics.world.addBody(this.rocket_body);
