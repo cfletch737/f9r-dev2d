@@ -72,7 +72,7 @@ var Craft=function(options) {
       position: [-275, 5000],
       velocity: [15,-240],
       engine_number:1,
-      ballast: 3000, //0 is normal
+      ballast: 0, //0 is normal
       max_engines: 3,
       angle: radians(7),
       angular_velocity: radians(-0.3),
