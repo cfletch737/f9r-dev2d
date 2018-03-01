@@ -108,7 +108,7 @@ var Craft=function(options) {
       fuel: 35000,
       gear_down:false,
       clamp:false,
-      model:"f9r"
+      model:"f9r-dev-high"
     }
   };
 
