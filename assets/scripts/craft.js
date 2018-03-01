@@ -85,7 +85,7 @@ var Craft=function(options) {
     "f9r-rtls-extreme": {
       position: [-1400, 12000],
       velocity: [70,-220],
-      engine_number:1,
+      engine_number:3,
       ballast: 0,
       max_engines: 3,
       angle: radians(8),
