@@ -72,12 +72,12 @@ var Craft=function(options) {
       position: [-275, 5000],
       velocity: [15,-240],
       engine_number:1,
-      ballast: 5000, //0 is normal
+      ballast: 3000, //0 is normal
       max_engines: 3,
       angle: radians(7),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 10000, //3000 is normal 
+      fuel: 9000, //3000 is normal 
       gear_down:false,
       clamp:false,
       model:"f9r"
