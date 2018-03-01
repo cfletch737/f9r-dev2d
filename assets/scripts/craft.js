@@ -94,7 +94,7 @@ var Craft=function(options) {
       fuel: 3500,
       gear_down:false,
       clamp:false,
-      model:"f9r"
+      model:"f9r-dev-high"
     },
     "f9r-boostback": {
       position: [-90000,80000],
