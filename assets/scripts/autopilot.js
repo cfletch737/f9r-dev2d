@@ -49,7 +49,7 @@ var Autopilot = function(craft) {
     var hit_time = Math.abs(this.craft.getAltitude() / this.craft.getVspeed());
     var suicide_time = Math.abs(this.craft.getVspeed() / ((twr - 1) * 9.81));
     
-    var suicide_alt = this.get_suicide_alt(this.craft.getAltitude() - 0.2 - this.target_altitude, this.craft.getVspeed(), crange(0, 0.5, 1, 0.7, 1) * twr);
+    var suicide_alt = this.get_suicide_alt(this.craft.getAltitude() - 0.2 - this.target_altitude, this.craft.getVspeed(), crange(0, 0.5, 1, 0.7, 2) * twr);
 
     if(suicide_alt < 0 && !this.started) {
       this.started = true;
