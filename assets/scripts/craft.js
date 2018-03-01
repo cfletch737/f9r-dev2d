@@ -491,7 +491,7 @@ var Craft=function(options) {
     this.throttle = (throttle * (1 - mix)) + (this.throttle * mix);
     this.vector   = clamp(-1.00, ap.pid.aspeed.get() * crange(0, this.throttle, 1, 60, 12), 1.00);
 
-    if(this.throttle < -0.5 && (this.getAltitude() > 0 && this.engine_number == 3 && target_vspeed < 0)) {
+    if(this.throttle < -0.5 && (this.getAltitude() < 0 && this.engine_number == 3 && target_vspeed < 0)) {
       this.throttle = 0;
     } else if(this.throttle < 0.02) {
       this.throttle = 0.02;
