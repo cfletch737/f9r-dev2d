@@ -77,7 +77,7 @@ var Craft=function(options) {
       angle: radians(7),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 3100, //3000 is 0.9%
+      fuel: 3500, //3500 is normal
       gear_down:false,
       clamp:false,
       model:"f9r"
@@ -91,7 +91,7 @@ var Craft=function(options) {
       angle: radians(8),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 3500,
+      fuel: 4000,
       gear_down:false,
       clamp:false,
       model:"f9r-dev-high"
