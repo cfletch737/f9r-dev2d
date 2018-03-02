@@ -404,7 +404,7 @@ var Craft=function(options) {
     ap.twr = twr;
 
     if(twr > 10) {
-      this.engine_number = 3;
+      this.engine_number = 1;
     } else if(twr > 5) {
       this.engine_number = 3;
     } else {
