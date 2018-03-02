@@ -70,7 +70,7 @@ var Craft=function(options) {
     },
     "f9r-rtls": {
       position: [-275, 5000],
-      velocity: [15,-300], // 240 for Sim
+      velocity: [15,-240], // 240 for Sim
       engine_number:1,
       ballast: 0, //0 is normal
       max_engines:3,
@@ -84,7 +84,7 @@ var Craft=function(options) {
     },
     "f9r-rtls-extreme": {
       position: [-1400, 12000],
-      velocity: [70,-600], //340 for Sim
+      velocity: [70,-340], //340 for Sim
       engine_number:1,
       ballast: 0,
       max_engines:3,
