@@ -77,14 +77,14 @@ var Craft=function(options) {
       angle: radians(7),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 3000, //3000 is normal 
+      fuel: 3100, //3000 is 0.9%
       gear_down:false,
       clamp:false,
       model:"f9r"
     },
     "f9r-rtls-extreme": {
       position: [-1400, 12000],
-      velocity: [70,-340], //340 for Sim
+      velocity: [70,-340], 
       engine_number:1,
       ballast: 0,
       max_engines:3,
