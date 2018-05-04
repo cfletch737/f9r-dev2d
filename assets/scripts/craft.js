@@ -96,19 +96,19 @@ var Craft=function(options) {
       clamp:false,
       model:"f9r-dev-high"
     },
-    "f9r-boostback": {
-      position: [-90000,80000],
-      velocity: [-1800,400],
-      engine_number: 3,
-      ballast: 0,
-      max_engines: 9,
-      angle: radians(70),
-      angular_velocity: radians(0.1),
-      rcs_fuel:1000,
-      fuel: 35000,
+    "f9r-boostback": { //margin configuration 1
+           position: [-275, 5000],
+      velocity: [15,-240],
+      engine_number:1,
+      ballast: 0, 
+      max_engines:3,
+      angle: radians(7),
+      angular_velocity: radians(-0.3),
+      rcs_fuel:300,
+      fuel: 3500, //EXTREME LANDING CONFIG
       gear_down:false,
       clamp:false,
-      model:"f9r-dev-high"
+      model:"f9r"
     }
   };
 
