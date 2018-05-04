@@ -72,7 +72,7 @@ function settings_init_post() {
   setting_add(["f9r-dev2","nine engines, full fuel"],"button",null,function() {
     craft_reset("f9r-dev2");
   });
-  setting_add(["f9r boostback","immediately after second stage separation (experts only)"],"button",null,function() {
+  setting_add(["f9r high margin","test"],"button",null,function() {
     craft_reset("f9r-boostback");
   });
   setting_add(["f9r rtls","after boostback completed (experts only)"],"button",null,function() {
