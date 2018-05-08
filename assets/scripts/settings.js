@@ -72,13 +72,13 @@ function settings_init_post() {
   setting_add(["f9r-dev2","nine engines, full fuel"],"button",null,function() {
     craft_reset("f9r-dev2");
   });
-  setting_add(["f9r high margin","test"],"button",null,function() {
+  setting_add(["f9r N/A","test"],"button",null,function() {
     craft_reset("f9r-boostback");
   });
   setting_add(["f9r rtls","after boostback completed (experts only)"],"button",null,function() {
     craft_reset("f9r-rtls");
   });
-  setting_add(["f9r rtls extreme","high lateral offset"],"button",null,function() {
+  setting_add(["f9r high margin","high lateral offset"],"button",null,function() {
     craft_reset("f9r-rtls-extreme");
   });
   setting_add(["flip left-right","flip the engine vector direction"],"bool",true,function() {
