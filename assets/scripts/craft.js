@@ -82,7 +82,21 @@ var Craft=function(options) {
       clamp:false,
       model:"f9r"
     },
-    "f9r-rtls-extreme": {
+    "f9r-rtls-extreme": { //margin configuration 1
+      position: [-275, 5000],
+      velocity: [15,-240], 
+      engine_number:1,
+      ballast: 0, //0 is normal
+      max_engines:3,
+      angle: radians(7),
+      angular_velocity: radians(-0.3),
+      rcs_fuel:300,
+      fuel: 3500, //3500 is normal
+      gear_down:false,
+      clamp:false,
+      model:"f9r"
+    },
+    "f9r-boostback": { //margin configuration 1
       position: [-1400, 12000],
       velocity: [70,-340], 
       engine_number:1,
@@ -92,20 +106,6 @@ var Craft=function(options) {
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
       fuel: 3500,
-      gear_down:false,
-      clamp:false,
-      model:"f9r-dev-high"
-    },
-    "f9r-boostback": { //margin configuration 1
-           position: [-275, 5000],
-      velocity: [15,-240],
-      engine_number:1,
-      ballast: 0, 
-      max_engines:3,
-      angle: radians(7),
-      angular_velocity: radians(-0.3),
-      rcs_fuel:300,
-      fuel: 3500, //EXTREME LANDING CONFIG
       gear_down:false,
       clamp:false,
       model:"f9r"
