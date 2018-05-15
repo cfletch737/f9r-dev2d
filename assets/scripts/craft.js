@@ -105,7 +105,7 @@ var Craft=function(options) {
       angle: radians(8),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 3000,
+      fuel: 2500,
       gear_down:false,
       clamp:false,
       model:"f9r"
