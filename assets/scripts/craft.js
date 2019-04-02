@@ -1,4 +1,6 @@
 
+
+
 var Craft=function(options) {
   this.pos=[0,0];
   this.angle=0;
@@ -97,7 +99,7 @@ var Craft=function(options) {
       model:"f9r"
     },
     "f9r-boostback": { //margin configuration 1
-      position: [-1400, 12000],
+      position: [-1000, 10000],
       velocity: [70,-340], 
       engine_number:1,
       ballast: 0,
@@ -105,7 +107,7 @@ var Craft=function(options) {
       angle: radians(8),
       angular_velocity: radians(-0.3),
       rcs_fuel:300,
-      fuel: 2500,
+      fuel: 2000,
       gear_down:false,
       clamp:false,
       model:"f9r"
